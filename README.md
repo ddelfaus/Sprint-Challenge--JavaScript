@@ -30,13 +30,35 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+
+Foreach executes a function one each array element changing the array
+.map executes a function on each array element and creates the results into a new separate array.
+
+
+
 2. What is the difference between a function and a method?
+
+Functions are not tied to an object while methods are functions that are tied to an object. 
+Example function vs object. function();  vs  object.method();
+
 
 3. What is closure?
 
+
+Closure allow access to outer function's scope to the inner function.
+Allows access to variables outside the inner function
+
 4. Describe the four rules of the 'this' keyword.
 
+1. First principle is Windows/Global Object binding. When "this" is in the global scope, it will be referring to the window/console object. Everything in javaScript are part of objects.
+2. Second principle is Implicit Binding. When "this" is part of a function inside an object it will call that object that is before the dot.
+3. Third principle is New binding. New binding is used with constructor function. The "this" is referring to the new object that is created.
+4. Fourth principle is Explicit binding. When a javaScript call or apply is used "this" will refer to those methods.
+
 5. Why do we need super() in an extended class?
+
+It allows the use and access of the functions from the parent
+
 
 ## Project Set up
 
